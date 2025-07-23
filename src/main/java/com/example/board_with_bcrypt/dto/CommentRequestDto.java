@@ -10,10 +10,8 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class PostDeleteRequestDto {
+public class CommentRequestDto {
     @NotBlank
-    private String title;
-
     private String content;
 
     @NotBlank
